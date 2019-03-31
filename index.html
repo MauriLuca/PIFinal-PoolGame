@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>FINAL</title>
+        <link rel="stylesheet" type="text/css" href="css/game-layout.css"/>
+        <link rel="shortcut icon" type="image/png" href="assets/sprites/logo.png"/>
+    </head>
+        <body style = "background-color:black">
+            
+
+            <!--carico i file-->
+            <script src = "Vector2.js"></script>
+            <script src = "input/ButtonState.js"></script>
+            <script src = "input/Mouse.js"></script>
+            <script src = "Canvas.js"></script>
+            <script src = "Assets.js"></script>
+            <script src = "Ball.js"></script>
+            <script src = "Score.js"></script>
+            <script src = "Global.js"></script>
+            <script src = "Player.js"></script>
+            <script src = "GamePolicy.js"></script>
+            <script src = "GameWorld.js"></script>
+            <script src = "Game.js"></script>
+            <script src = "Stick.js"></script>
+            
+            <!-- caricati i file faccio partire il gioco-->
+            <script>
+                loadAssets(PoolGame.start);
+            </script>
+
+            <div id="gameArea">
+                <canvas id="screen" width="2000" height="1000"></canvas>
+            </div>
+        </body>
+</html>
